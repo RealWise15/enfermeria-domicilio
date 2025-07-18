@@ -1,2 +1,6 @@
+# Ignorar archivos sensibles
+config.php
 *.log
-_pycache_/
+.env
+__pycache__/
+node_modules/
