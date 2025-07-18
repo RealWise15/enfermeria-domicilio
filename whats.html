@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botón de WhatsApp</title>
+    <style>
+        /* Estilos para el botón flotante */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            font-size: 30px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #1ebe5d;
+            transform: scale(1.1);
+        }
+
+        /* Ícono de WhatsApp */
+        .whatsapp-float i {
+            color: white;
+        }
+    </style>
+    <!-- Íconos de FontAwesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/549XXXXXXXXXX" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
